@@ -1,0 +1,18 @@
+body {
+  background-color: #f5f7fa; /* soft gray background */
+  height: 100vh;
+}
+
+.login-container {
+  width: 350px;
+  padding: 30px;
+}
+
+h3 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}

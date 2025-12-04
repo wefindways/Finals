@@ -1,0 +1,27 @@
+body {
+  background-color: #f5f7fa; /* soft gray background */
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+  gap: 20px;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.purpose-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}

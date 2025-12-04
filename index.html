@@ -17,22 +17,26 @@
     <div class="login-container">
       <h3 class="text-center mb-4">User Login</h3>
 
-      <form action="dashboard.php">
+      <form action="login.php" method="post">
         <div class="input-group">
           <input
             type="text"
             class="form-control"
+            name="username"
             placeholder="Username"
             aria-label="Username"
-          />
+            required
+            />
         </div>
 
         <div class="input-group">
           <input
             type="password"
             class="form-control"
+            name="password"
             placeholder="Password"
             aria-label="Password"
+            required
           />
         </div>
 
